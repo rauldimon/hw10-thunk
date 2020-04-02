@@ -1,0 +1,16 @@
+.blockHeader {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 3px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+.blockHeader a {
+  font-weight: bold;
+  color: black;
+  font-size: 26px;
+}

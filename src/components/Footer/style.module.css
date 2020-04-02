@@ -1,0 +1,12 @@
+  .blockFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+    color: gray;
+  }
+
+  a {
+    text-decoration: none;
+    color:gray;
+  }

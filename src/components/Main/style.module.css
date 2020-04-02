@@ -1,0 +1,53 @@
+.profile {
+  width: 20rem;
+  background-color: rgb(158, 217, 197);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, .3),
+    -10px 0 20px -23px rgba(0, 0, 0, .6),
+    23px 0 20px -23px rgba(0, 0, 0, .6);
+}
+
+.profileName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.profileName::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 30%;
+  height: 2px;
+  background-color: white;
+  margin: 0 auto;
+  display: block;
+}
+
+.avatarBlock {
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.avatarBlock img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+}
+
+.profileInfo {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 0 0 0.45rem 0.45rem;
+}
